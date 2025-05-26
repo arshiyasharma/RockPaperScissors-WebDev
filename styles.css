@@ -1,0 +1,80 @@
+* {
+    margin: 0vh;
+    padding: 0vh;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkblue;
+    font-size: 10vh;
+}
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkblue;
+    font-size: 4vh;
+    background-color: white;
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 0.7rem;
+    margin-top: 2rem;
+}
+body {
+    background-color: #bde0fe;
+    text-align: center;
+}
+.game {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    height: 50vh;
+    width: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+
+}
+.box {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background-color: #ffafcc;
+    border-color: #ffc8dd;
+    border-style: double;
+    border-width: 0.3rem;
+}
+.box:active {
+    border-style:dashed;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: #e13275;
+    /* filter: brightness(90%); makes it 10% darker */
+    transition: background-color 0.2s ease-in;
+    cursor: pointer;
+}
+.imgs {
+    width: 11vh;
+    height: 12vh;
+}
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8vw;
+}
+.score {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: rgb(139, 14, 70);
+    font-size: 4vh;
+}
+
+#compsc, #playersc {
+    font-size: 6vh;
+}
